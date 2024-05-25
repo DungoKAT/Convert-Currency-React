@@ -1,0 +1,44 @@
+body {
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.image {
+    width: 220px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.equal {
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.currency {
+    display: flex;
+    flex-direction: column;
+}
+
+.currency select {
+    padding: 10px 5px;
+    width: 75px;
+    border: 1px solid rgb(200, 200, 200);
+    font-size: 16px;
+}
+
+.currency input {
+    margin-top: 10px;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
